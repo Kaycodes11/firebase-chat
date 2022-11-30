@@ -6,6 +6,7 @@ import {doc, setDoc} from 'firebase/firestore';
 import {auth, db, storage} from "../firebase";
 import {Link, useNavigate} from "react-router-dom";
 
+// gohan@gmail.com Vegeta@12
 const Register = () => {
     const [err, setErr] = React.useState(false);
     const navigate = useNavigate();
